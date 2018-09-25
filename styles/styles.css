@@ -51,7 +51,8 @@ header nav a.current {
 
 header nav a:hover,
 header nav a:active,
-*:focus {
+*:focus,
+*:focus * {
     background-color: white;
     color: hotpink;
     border-radius: 0.25rem;
