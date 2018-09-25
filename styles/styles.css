@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Carrois Gothic");
+@import url("https://fonts.googleapis.com/css?family=Carrois Gothic SC");
+
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: black;
+    font-size: 1rem;
+    padding: 0rem;
+    margin: 0rem;
+    font-family: "Carrois Gothic";
+    width: 100%;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1rem 1rem 0rem 1rem;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0rem;
+    align-self: flex-end;
+}
+
+header nav a {
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 2rem;
+    padding: 0.5rem 0.5rem 3px 0.5rem;
+    font-family: "Carrois Gothic SC";
+}
+
+header nav a.current {
+    padding-bottom: 0px;
+    border-bottom: 3px solid hotpink;
+}
+
+header nav a:hover,
+header nav a:active,
+*:focus {
+    background-color: white;
+    color: hotpink;
+    border-radius: 0.25rem;
+    outline: none;
+}
+
+
+.hero {
+    margin: 5rem 1rem 8rem 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero h1 {
+    margin: 0rem 0rem 0rem 4rem;
+    width: 40%;
+    font-family: "Carrois Gothic SC";
+    font-size: 3rem;
+}
+
+.hero p {
+    margin: 0rem 4rem 0rem 0rem;
+    width: 60%;
+    color: lightpink;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.hero p strong {
+    color: hotpink;
+}
+
+.emote img {
+    width: 100%;
+}
+
+.contacts {
+    display: grid;
+    grid-column-gap: 3rem;
+    grid-row-gap: 1rem;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+
+.contact_label {
+    font-family: "Carrois Gothic SC";
+    font-size: 2rem;
+    text-align: right;
+}
+
+.contact,
+.contact a {
+    font-size: 2rem;
+}
